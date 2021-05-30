@@ -68,7 +68,6 @@ insert into SC values('07' , '03' , 98);
 2. Query the student number and student name and average grade of students with an average score greater than or equal to 60 points
 3. Query student information with grades in the SC table
 4. Query the student number, student name, total number of selected courses, and total score of all courses of all students (no score will be displayed as null)
-- Check the information of students with grades
 5. Query the number of teachers surnamed "李"
 6. Query the information of the students who have studied from the teacher "张三" 
 7. Query the information of students who have not studied all courses
