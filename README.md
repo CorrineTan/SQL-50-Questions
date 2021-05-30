@@ -62,13 +62,13 @@ insert into SC values('07' , '03' , 98);
 
 ## Questions
 1. Query information and course scores of students with higher grades in the "01" course than in the "02" course
-1.1 Query the situation that "01" course and "02" course exist at the same time
-1.2 Query the situation where the "01" course exists but the "02" course may not exist (it will be displayed as null if it does not exist)
-1.3 Query the situation where there is no "01" course but "02" course
+- Query the situation that "01" course and "02" course exist at the same time
+- Query the situation where the "01" course exists but the "02" course may not exist (it will be displayed as null if it does not exist)
+- Query the situation where there is no "01" course but "02" course
 2. Query the student number and student name and average grade of students with an average score greater than or equal to 60 points
 3. Query student information with grades in the SC table
 4. Query the student number, student name, total number of selected courses, and total score of all courses of all students (no score will be displayed as null)
-4.1 Check the information of students with grades
+- Check the information of students with grades
 5. Query the number of teachers surnamed "李"
 6. Query the information of the students who have studied from the teacher "张三" 
 7. Query the information of students who have not studied all courses
@@ -83,9 +83,9 @@ insert into SC values('07' , '03' , 98);
  Passing is >=60, medium is: 70-80, excellent is: 80-90, excellent is: >=90
  It is required to output the course number and the number of electives, and the query results are sorted in descending order by the number of people. If the number of people is the same, they are sorted in ascending order by the number of courses.
 15. Sort according to the scores of each subject and display the ranking. If the score is repeated, the ranking will be kept vacant
-15.1 Sort according to the scores of each subject, and display the rankings. When the scores are repeated, the rankings are combined
+- Sort according to the scores of each subject, and display the rankings. When the scores are repeated, the rankings are combined
 16. Query the student's total score and rank it. If the total score is repeated, the ranking will remain vacant
-16.1 Query the total scores of students and rank them. When the total scores are repeated, the ranking will not be reserved
+- Query the total scores of students and rank them. When the total scores are repeated, the ranking will not be reserved
 17. Count the number of students in each grade of each subject: course number, course name, [100-85], [85-70], [70-60], [60-0] and percentage
 18. Query the top three records of each subject
 19. Query the number of students selected for each course
