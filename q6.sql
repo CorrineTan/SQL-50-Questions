@@ -1,5 +1,5 @@
 /* Question 6: 
-Query the information of the students who have studied from the teacher "张三" */
+Query the information of students who have not studied all courses */
 
 /* Solution: inner join on all the tables */
 
