@@ -1,15 +1,14 @@
 /* Question 7: 
-Query the information of at least one class 
-that is the same as the student whose student ID is "01" */
+Query the information of students who have not studied all courses */
 
-/* Solution: nothing specific. */
+/* Solution: student left join with sc, then compare counts
+of grouped student's cid and the length of course table. */
 
-select distinct student.*
-from sc 
-inner join student
-on sc.sid = student.sid
-where cid in (
-select cid
-from sc
-where sid = 01
+select * from student
+where sid in (
+select student.sid from student
+left join sc 
+on student.sid = sc.sid
+group by student.sid
+having count(sc.cid) < (select count(*) from course)
 )
