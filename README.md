@@ -78,7 +78,7 @@ insert into SC values('07' , '03' , 98);
 12. Retrieve the information of students whose scores of "01" are less than 60, sorted in descending order of scores
 13. Display the grades and average grades of all the courses of all students in descending order of grade point average
 14. Query the highest score, lowest score and average score of each subject:  
-Displayed in the following format: course ID, course name, highest score, lowest score, average score, pass rate, medium rate, excellent rate, excellent rate  
+Displayed in the following format: course ID, course name, highest score, lowest score, average score, pass rate, medium rate, excellent rate 
 Passing is >=60, excellent is: 80-90
 It is required to output the course number and the number of electives, and the query results are sorted in descending order by the number of people. If the number of people is the same, they are sorted in ascending order by the number of courses.
 15. Sort according to the scores of each subject and display the ranking. If the score is repeated, the ranking will be kept vacant
