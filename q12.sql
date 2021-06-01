@@ -1,15 +1,15 @@
 /* Question 12: 
-Retrieve the information of students whose scores of class "01" 
-are less than 60, sorted in descending order of scores */
+Display the grades and average grades of all the courses of 
+all students in descending order of grade point average */
 
 /* Solution: create a sub table to get required conditions. */
 
-select *
+select sc.*, ave_score
 from (
-select sid, score
+select sid, avg(score) as ave_score
 from sc
-where cid = 01 and score < 60
-order by score desc
-) sub_table
-inner join student
-on student.sid = sub_table.sid
+group by sid
+) as sub_table
+join sc
+on sc.sid = sub_table.sid
+order by ave_score desc
