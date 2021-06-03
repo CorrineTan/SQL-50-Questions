@@ -2,7 +2,7 @@
 Sort according to the scores of each subject and display the ranking. 
 If the score is repeated, the ranking will be kept vacant */
 
-/* Solution:  */
+/* Solution:  sc do a self join on cid */
 
 select sc_a.cid, sc_a.sid, sc_a.score,
 count(sc_b.score)+1 as rank
