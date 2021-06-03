@@ -8,7 +8,7 @@ and the query results are sorted in descending order by the number of people.
 If the number of people is the same, they are sorted in ascending order by 
 the number of courses. */
 
-/* Solution:  */
+/* Solution: use case when to pass the conditions into sum. */
 
 select sc.cid as course_ID, cname as course_name,
 max(score) as highest_score, 
