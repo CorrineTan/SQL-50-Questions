@@ -15,7 +15,7 @@ max(score) as highest_score,
 min(score) as lowest_score, 
 avg(score) as average_score,
 sum(case when score >= 60 then 1 else 0 end)/count(*) as pass_rate,
-sum(case when score > 90 then 1 else 0 end)/count(*) as excellent_rate
+sum(case when score >= 90 then 1 else 0 end)/count(*) as excellent_rate
 from sc
 inner join course
 on sc.cid = course.cid
