@@ -1,6 +1,6 @@
 /* Question 12: 
 Retrieve the information of students whose scores of class "01" 
-are less than 60, sorted in descending order of scores */
+are less than 60, sorted in descending order of scores*/
 
 /* Solution: create a sub table to get required conditions. */
 
